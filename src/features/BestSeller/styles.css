@@ -1,0 +1,72 @@
+.best-seller {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 200ms ease, transform 100ms ease;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+
+  &:hover {
+    background-color: #222525;
+  }
+
+  &:active {
+    transform: scale(.995);
+  }
+
+  .best-seller-id {
+    font-size: 12px;
+  }
+
+  .best-seller-interno {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    .best-seller-info {
+      display: flex;
+      flex-direction: column;
+      font-weight: 300;
+
+      .best-seller-name {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 15px;
+      }
+
+      .best-seller-author {
+        font-size: 13px;
+        color: var(--brand-gray);
+        line-height: 20px;
+      }
+    }
+  }
+
+  .post-subscribe-button {
+      background-color: #4A2515;
+    color: #FF7C1E;
+
+    &:hover {
+      background-color: #4E2919;
+
+    }
+  }
+
+  .post-subscribe-button.subscribed {
+    background-color: #363737;
+    color: var(--brand-gray);
+
+    &:hover {
+      background-color: #363737;
+    }
+  }
+
+  img {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+}

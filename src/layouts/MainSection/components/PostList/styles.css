@@ -1,0 +1,22 @@
+.post-list-for-you {
+  margin-top: 8px;
+  color: var(--brand-gray);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  line-height: 32px;
+  cursor: pointer;
+  width: max-content;
+  transition: color 200ms ease, transform 100ms ease;
+  user-select: none;
+  font-weight: 600;
+
+  &:hover {
+    color: var(--brand-white);
+  }
+
+  &:active {
+    transform: scale(.98);
+  }
+}

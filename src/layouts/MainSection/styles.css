@@ -1,0 +1,36 @@
+.main {
+  max-width: 568px;
+  height: 200vh;
+  margin-right: 129px;
+
+  .starter-button {
+    background-color: #1b1c1d;
+    color: var(--brand-gray);
+    border: 1px solid #323334;
+    border-radius: 12px;
+    padding: 16px;
+    gap: 12px;
+    width: 100%;
+    font-weight: 300;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    transition: transform 100ms ease-in, background-color 100ms ease;
+
+    .profile-picture {
+      max-width: 36px;
+      max-height: 36px;
+      border-radius: 100%;
+    }
+
+    &:hover {
+      transform: scale(.99);
+      background-color: #222525;
+    }
+
+    &:active {
+      transform: scale(.98);
+    }
+  }
+}

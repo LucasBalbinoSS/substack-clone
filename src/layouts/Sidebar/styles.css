@@ -1,0 +1,14 @@
+.menu-suggestions {
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  gap: 16px;
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px;
+  right: 0;
+  width: 420px;
+}

@@ -1,0 +1,32 @@
+.up-next {
+  background-color: #1b1c1d;
+  border: 1px solid #323334;
+  border-radius: 12px;
+  color: var(--brand-white);
+  padding: 16px 8px;
+
+  h2 {
+    font-size: 17px;
+    cursor: pointer;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .up-next-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .interno {
+    padding-inline: 8px;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 13px;
+  }
+}

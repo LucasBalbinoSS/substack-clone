@@ -1,0 +1,42 @@
+.suggestion-slider {
+  padding: 16px 0 24px 0;
+  color: var(--brand-white);
+  border-bottom: 1px solid #333;
+
+  .suggestion-slider-interno {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      font-size: 20px;
+      cursor: pointer;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .suggestion-slider-list {
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .see-all {
+    color: inherit;
+    font-size: 13px;
+    display: flex;
+    height: 32px;
+    align-items: center;
+    padding: 0 8px;
+    border-radius: 8px;
+    transition: background-color 200ms;
+
+    &:hover {
+      background-color: #222525;
+    }
+  }
+}

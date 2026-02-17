@@ -1,0 +1,70 @@
+.post-text {
+  white-space: pre-wrap;
+  line-height: calc(1.4*1rem);
+}
+
+.post-blockquote {
+  background: linear-gradient(180deg, rgba(63, 63, 63, 0.291), rgba(63, 63, 63, 0.359)), #3839392d;
+  border: 1px solid #404141;
+  padding: 20px;
+  border-radius: 12px;
+  display: grid;
+  gap: 12px;
+  cursor: pointer;
+  transition: filter 200ms ease, transform 200ms ease, box-shadow 200ms ease;
+
+  &:hover {
+    filter: brightness(.90);
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  }
+
+  &:active {
+    transform: scale(.995);
+  }
+
+  p {
+    font-family: -apple-system-ui-serif,ui-serif,"Spectral","Georgia",serif;
+
+
+    font-size: 18px;
+    line-height: 28px;
+
+    white-space: pre-wrap;
+    font-weight: 300;
+  }
+
+  .blockquote-footer {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--brand-gray);
+
+    .author {
+      cursor: pointer;
+      font-size: 13px;
+      transition: color 200ms ease;
+      font-style: italic;
+
+      &:hover {
+        text-decoration: underline;
+        color: #c8c8c8;
+      }
+    }
+
+    button {
+      background-color: transparent;
+      color: var(--brand-gray);
+      cursor: pointer;
+      transition: color 200ms ease, transform 100ms ease;
+
+      &:hover {
+        color: #c8c8c8;
+      }
+
+      &:active {
+        transform: scale(.96);
+      }
+    }
+  }
+}

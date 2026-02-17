@@ -1,0 +1,15 @@
+.see-all {
+  color: var(--brand-gray);
+  transition: color 200ms ease, transform 100ms ease;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 600;
+
+  &:hover {
+    color: var(--brand-white);
+  }
+
+  &:active {
+    transform: scale(.96);
+  }
+}
