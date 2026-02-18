@@ -18,11 +18,17 @@
     }
   }
 
+  .suggestion-slider-interno-2 {
+    overflow: auto;
+    scrollbar-width: none;
+  }
+
   .suggestion-slider-list {
     padding-top: 12px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 8px;
+    width: max-content;
   }
 
   .see-all {

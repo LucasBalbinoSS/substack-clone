@@ -153,5 +153,12 @@ export const SUGGESTION_DATA: SuggestionType[] = [
     name: 'Conversas e arte',
     description: 'Conversas e arte',
     userVerification: true
+  },
+  {
+    id: 4,
+    image: painting,
+    name: 'Conversas e arte',
+    description: 'Conversas e arte',
+    userVerification: true
   }
 ]

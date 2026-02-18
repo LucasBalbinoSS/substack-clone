@@ -12,3 +12,9 @@
   right: 0;
   width: 420px;
 }
+
+@media (max-width: 1239px) {
+  .menu-suggestions {
+    display: none;
+  }
+}

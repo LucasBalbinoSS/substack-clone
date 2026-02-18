@@ -11,18 +11,20 @@ export default function SugestionSlider() {
         <h2 className="suggestion-slider-tt">Suggestions</h2>
         <SeeAllButton />
       </div>
-      <ul className='suggestion-slider-list'>
-        {SUGGESTION_DATA.map((suggestion) => (
-          <SuggestionCard
-            id={suggestion.id}
-            key={suggestion.id}
-            image={suggestion.image}
-            name={suggestion.name}
-            description={suggestion.description}
-            userVerification={suggestion.userVerification}
-          />
-        ))}
-      </ul>
+      <div className='suggestion-slider-interno-2'>
+        <ul className='suggestion-slider-list'>
+          {SUGGESTION_DATA.map((suggestion) => (
+            <SuggestionCard
+              id={suggestion.id}
+              key={suggestion.id}
+              image={suggestion.image}
+              name={suggestion.name}
+              description={suggestion.description}
+              userVerification={suggestion.userVerification}
+            />
+          ))}
+        </ul>
+      </div>
     </div>
   )
 }

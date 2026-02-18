@@ -88,3 +88,9 @@
     background-color: transparent;
   }
 }
+
+@media (max-width: 1239px) {
+  .menu {
+    display: none;
+  }
+}
