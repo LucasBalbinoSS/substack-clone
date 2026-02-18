@@ -7,7 +7,7 @@ export default function MainSection() {
   return(
     <main className='main'>
       <button className='starter-button'>
-        <img className='profile-picture' src={profilePicture} alt="User Profile picture" />
+        <img className='profile-picture' src={profilePicture} alt="User Profile picture" loading='eager' />
         What's on your mind?
       </button>
       <SugestionSlider />

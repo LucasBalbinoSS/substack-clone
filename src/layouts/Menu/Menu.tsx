@@ -45,7 +45,7 @@ export default function Menu() {
             Dashboard
           </li>
           <li className="list-item profile-item">
-            <img className='profile-img' src={profilePicture} alt="User Profile picture" />
+            <img className='profile-img' src={profilePicture} alt="User Profile picture" loading='eager' />
             Profile
           </li>
           <li className="list-item create-item">

@@ -66,7 +66,7 @@ export default function Post({ id, name, profilePhotoUrl, postedAt, postContent,
           />
           {image && (
             <figure className='post-image-container'>
-              <img src={image} alt="Post Image" />
+              <img src={image} alt="Post Image" loading='eager' />
             </figure>
           )}
         </div>

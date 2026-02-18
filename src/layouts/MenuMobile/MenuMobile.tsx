@@ -14,7 +14,7 @@ export default function MenuMobile() {
       <nav className='menu-mobile-interno-2'>
         <SearchIcon size={24} />
         <NotificationIcon />
-        <img className='menu-mobile-profile-img' src={profilePicture} alt="User Profile picture" />
+        <img className='menu-mobile-profile-img' src={profilePicture} alt="User Profile picture" loading='eager' />
       </nav>
     </section>
   )

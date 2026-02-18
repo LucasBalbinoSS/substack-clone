@@ -54,7 +54,7 @@ export default function UpNextCard({ profilePicture, name, title, image, readTim
           )}
         </div>
         </div>
-        <img src={image} alt="" />
+        <img src={image} alt="Card Up Next image" loading='eager' />
       </div>
     </li>
   )

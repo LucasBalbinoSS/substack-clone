@@ -15,7 +15,7 @@ export default function BestSeller({ id, avatar, name, author, userVerification 
     <li className="best-seller">
       <div className='best-seller-interno'>
       <span className='best-seller-id'>{id}</span>
-        <img className='avatar' src={avatar} alt="" />
+        <img className='avatar' src={avatar} alt="Profile image" />
         <div className='best-seller-info'>
           <span className='best-seller-name'>
             {name}

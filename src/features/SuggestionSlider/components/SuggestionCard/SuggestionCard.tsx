@@ -26,7 +26,7 @@ export default function SuggestionCard({image, name, description, userVerificati
       </button>
       <div className='suggestion-card-interno'>
         <span className="suggestion-card-info">
-          <img className='suggestion-card-img' src={image} alt="" />
+          <img className='suggestion-card-img' src={image} alt="Card image" loading='eager' />
           <span className="suggestion-card-name-wrapper">
             <span className="suggestion-card-name">{name}</span>
             {
