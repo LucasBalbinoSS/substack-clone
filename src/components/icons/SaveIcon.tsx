@@ -3,12 +3,12 @@ export default function SaveIcon({ size, fill, stroke }: { size: number, fill: s
     <svg 
       className="save-icon-svg"
       xmlns="http://www.w3.org/2000/svg" 
-      width={size} 
-      height={size} 
-      viewBox="0 0 24 24" 
-      fill={fill} 
-      stroke={stroke} 
-      strokeWidth="2" 
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill={fill}
+      stroke={stroke}
+      strokeWidth="2"
       strokeLinecap="round" 
       strokeLinejoin="round"
     >

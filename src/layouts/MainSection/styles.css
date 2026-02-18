@@ -37,6 +37,7 @@
 
 @media (max-width: 1239px) {
   .main {
+    padding-top: 72px;
     margin-right: 0;
     height: auto;
   }

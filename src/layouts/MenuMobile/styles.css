@@ -1,0 +1,37 @@
+.menu-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  inset-inline: 0;
+  top: 0;
+  height: 72px;
+  padding-inline: 16px;
+  background-color: #16171895;
+  backdrop-filter: blur(8px);
+  z-index: 100;
+
+  .menu-mobile-interno,
+  .menu-mobile-interno-2 {
+    display: flex;
+    align-items: center;
+    color: var(--brand-white);
+  }
+
+  .menu-mobile-interno {
+    font-size: 20px;
+    font-weight: 700;
+    gap: 20px;
+  }
+
+  .menu-mobile-interno-2 {
+    gap: 12px;
+  }
+
+  .menu-mobile-profile-img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 100%;
+  }
+}
