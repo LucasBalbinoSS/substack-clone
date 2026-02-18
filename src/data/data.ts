@@ -59,7 +59,7 @@ export const POSTS_DATA: PostType[] = [
   },
   {
     id: 2,
-    name: 'Helena Mascarenhas',
+    name: 'Helena Mareth',
     profilePhotoUrl: helenaProfile,
     postedAt: 'Feb 4',
     content: 'Vim ao museu hoje para buscar silêncio, mas acabei encontrando diálogos profundos nas cores dessas telas.\n\nÀs vezes, escrever não é sobre inventar mundos, mas sobre traduzir o que o mundo já está gritando nos nossos ouvidos. A arte é a única linguagem que não precisa de dicionário para tocar a alma.',
