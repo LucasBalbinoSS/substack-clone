@@ -1,7 +1,7 @@
-import profilePicture from '../assets/profile.webp'
-import helenaProfile from '../assets/helena.webp'
-import otavioProfile from '../assets/otavio.webp'
-import danteProfile from '../assets/dante.webp'
+import profilePicture from '../assets/profile.jpg'
+import helenaProfile from '../assets/helena.png'
+import otavioProfile from '../assets/otavio.png'
+import danteProfile from '../assets/dante.png'
 
 import aristoteles from '../assets/best-sellers/aristoteles.png'
 import spider from '../assets/best-sellers/spider.png'
@@ -9,12 +9,12 @@ import beer from '../assets/best-sellers/beer.png'
 import grandma from '../assets/best-sellers/grandma.png'
 import samambaia from '../assets/best-sellers/samambaia.png'
 
-import painting from '../assets/suggestions/painting.webp'
-import coffee from '../assets/suggestions/coffee.webp'
-import neymar from '../assets/suggestions/neymar.webp'
+import painting from '../assets/suggestions/painting.png'
+import coffee from '../assets/suggestions/coffee.png'
+import neymar from '../assets/suggestions/neymar.png'
 
 // conteúdo do post
-import museumImage from '../assets/post/museum.webp'
+import museumImage from '../assets/post/museum.png'
 import farmImage from '../assets/post/farm.webp'
 
 export interface PostType {

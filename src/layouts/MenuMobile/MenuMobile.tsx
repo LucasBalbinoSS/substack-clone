@@ -1,7 +1,7 @@
 import Logo from '../../components/icons/Logo'
 import NotificationIcon from '../../components/icons/NotivicationIcon'
 import SearchIcon from '../../components/icons/SearchIcon'
-import profilePicture from '../../assets/profile.webp'
+import profilePicture from '../../assets/profile.jpg'
 import './styles.css'
 
 export default function MenuMobile() {

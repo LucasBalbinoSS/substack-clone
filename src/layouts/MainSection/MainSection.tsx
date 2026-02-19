@@ -1,5 +1,5 @@
 import './styles.css'
-import profilePicture from '../../assets/profile.webp'
+import profilePicture from '../../assets/profile.jpg'
 import PostList from './components/PostList/PostList'
 import SugestionSlider from '../../features/SuggestionSlider/SuggetionSlider'
 
