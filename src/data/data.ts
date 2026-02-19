@@ -13,6 +13,7 @@ import samambaia from '../assets/best-sellers/samambaia.png'
 import painting from '../assets/suggestions/painting.png'
 import coffee from '../assets/suggestions/coffee.png'
 import neymar from '../assets/suggestions/neymar.png'
+import romance from '../assets/suggestions/romance.png'
 
 // conteúdo do post
 import museumImage from '../assets/post/museum.png'
@@ -167,9 +168,9 @@ export const SUGGESTION_DATA: SuggestionType[] = [
   },
   {
     id: 4,
-    image: painting,
-    name: 'Conversas e arte',
-    description: 'Conversas e arte',
+    image: romance,
+    name: 'Quase Poesia',
+    description: 'Poesias sobre paixão',
     userVerification: true
   }
 ]
