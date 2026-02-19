@@ -2,6 +2,7 @@ import profilePicture from '../assets/profile.jpg'
 import helenaProfile from '../assets/helena.png'
 import otavioProfile from '../assets/otavio.png'
 import danteProfile from '../assets/dante.png'
+import claudioProfile from '../assets/claudio.png'
 
 import aristoteles from '../assets/best-sellers/aristoteles.png'
 import spider from '../assets/best-sellers/spider.png'
@@ -69,8 +70,19 @@ export const POSTS_DATA: PostType[] = [
     image: museumImage,
     userVerification: true
   },
-  {
+    {
     id: 3,
+    name: 'Cláudio Santos',
+    profilePhotoUrl: claudioProfile,
+    postedAt: '1h',
+    content: '>Hoje eu queria te ver...\n\nNa verdade, eu sempre quero.\n\nE quando te vejo...\n\nNunca quero que vá embora.',
+    likesNumber: 8,
+    commentsNumber: 15,
+    restackNumber: 24,
+    userVerification: false
+  },
+  {
+    id: 4,
     name: 'Otávio Massaroni',
     profilePhotoUrl: otavioProfile,
     postedAt: 'Feb 6',
@@ -81,7 +93,7 @@ export const POSTS_DATA: PostType[] = [
     image: farmImage
   },
   {
-    id: 4,
+    id: 5,
     name: 'Dante Alencar',
     profilePhotoUrl: danteProfile,
     postedAt: 'Fev 7',
@@ -91,7 +103,6 @@ export const POSTS_DATA: PostType[] = [
     restackNumber: 1105,
     userVerification: true
   },
-  
 ]
 
 export const BEST_SELLERS_DATA: BestSellersType[] = [
