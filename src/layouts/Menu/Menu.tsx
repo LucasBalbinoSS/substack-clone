@@ -1,6 +1,6 @@
 import './styles.css'
 
-import profilePicture from '../../assets/profile.jpg'
+import profilePicture from '../../assets/profile.webp'
 import ActivityIcon from '../../components/icons/ActivityIcon'
 import ChatIcon from '../../components/icons/ChatIcon'
 import DashboardIcon from '../../components/icons/DashboardIcon'
